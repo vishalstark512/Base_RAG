@@ -1,0 +1,45 @@
+/* App.css */
+.App {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* index.css */
+  body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+  }
+  
+  nav h1 {
+    margin: 0;
+  }
+  
+  input, textarea, button {
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #218838;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  

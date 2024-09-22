@@ -1,0 +1,4 @@
+type: openai_embedder
+api_key: "${OPENAI_API_KEY}"
+model: "text-embedding-ada-002"
+batch_size: 32

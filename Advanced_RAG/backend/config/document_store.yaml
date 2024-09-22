@@ -1,0 +1,4 @@
+type: elasticsearch
+host: "elasticsearch-service"
+port: 9200
+index_name: "rag_document_store"

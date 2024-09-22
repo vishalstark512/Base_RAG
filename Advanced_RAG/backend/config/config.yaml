@@ -1,0 +1,49 @@
+llm:
+  config_file: llm.yaml
+
+embeddings:
+  config_file: embeddings.yaml
+
+vector_db:
+  config_file: vector_db.yaml
+
+document_store:
+  config_file: document_store.yaml
+
+chunking:
+  config_file: chunking.yaml
+
+retriever:
+  method: hybrid
+  top_k: 10
+  use_hybrid: true
+  alpha: 0.7
+
+reranker:
+  method: monT5
+  model_name: "castorini/monot5-3b-msmarco"
+  top_k: 5
+  diversity_factor: 0.5
+
+summarizer:
+  method: abstractive
+  model_name: "facebook/bart-large-cnn"
+  max_length: 150
+  min_length: 50
+
+prompt_rewriter:
+  model_name: "t5-base"
+  max_length: 100
+
+api:
+  host: "0.0.0.0"
+  port: 8000
+  debug: false
+
+celery:
+  broker_url: "redis://redis-service:6379/0"
+  result_backend: "redis://redis-service:6379/0"
+
+logging:
+  level: INFO
+  file: "logs/rag_system.log"

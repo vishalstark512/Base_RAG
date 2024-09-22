@@ -1,0 +1,187 @@
+2024-09-21 07:58:47,457 - root - INFO - PromptRewriter initialized with model: t5-base on device: cpu
+2024-09-21 07:58:48,064 - root - INFO - Original prompt: 'What is the capital of France?' rewritten to 3 variations
+2024-09-21 07:58:48,306 - root - INFO - Original prompt: 'What is the capital of France?' expanded to: 'Paris'
+2024-09-21 07:58:52,615 - root - INFO - Generated 3 questions from the given context
+2024-09-21 07:58:52,617 - root - INFO - PromptRewriter cache cleared
+2024-09-21 08:03:09,019 - root - INFO - PromptRewriter initialized with model: t5-base on device: cpu
+2024-09-21 08:03:09,450 - root - INFO - Original prompt: 'What is the capital of France?' rewritten to 3 variations
+2024-09-21 08:03:09,674 - root - INFO - Original prompt: 'What is the capital of France?' expanded to: 'Paris'
+2024-09-21 08:03:13,812 - root - INFO - Generated 3 questions from the given context
+2024-09-21 08:03:13,812 - root - INFO - PromptRewriter cache cleared
+2024-09-21 08:03:59,411 - root - INFO - PromptRewriter initialized with model: t5-base on device: cpu
+2024-09-21 08:03:59,980 - root - INFO - Original prompt: 'What is the capital of France?' rewritten to 3 variations
+2024-09-21 08:04:00,222 - root - INFO - Original prompt: 'What is the capital of France?' expanded to: 'Paris'
+2024-09-21 08:04:04,441 - root - INFO - Generated 3 questions from the given context
+2024-09-21 08:04:04,442 - root - INFO - PromptRewriter cache cleared
+2024-09-21 08:04:48,096 - root - INFO - PromptRewriter initialized with model: t5-base on device: cpu
+2024-09-21 08:04:48,413 - root - INFO - Original prompt: 'What is the capital of France?' rewritten to 3 variations
+2024-09-21 08:04:48,592 - root - INFO - Original prompt: 'What is the capital of France?' expanded to: 'Paris'
+2024-09-21 08:04:51,151 - root - INFO - Generated 3 questions from the given context
+2024-09-21 08:04:51,152 - root - INFO - PromptRewriter cache cleared
+2024-09-21 08:06:07,846 - root - INFO - PromptRewriter initialized with model: t5-base on device: cpu
+2024-09-21 08:06:08,265 - root - INFO - Original prompt: 'What is the capital of France?' rewritten to 3 variations
+2024-09-21 08:06:08,434 - root - INFO - Original prompt: 'What is the capital of France?' expanded to: 'Paris'
+2024-09-21 08:06:12,114 - root - INFO - Generated 3 questions from the given context
+2024-09-21 08:06:12,115 - root - INFO - PromptRewriter cache cleared
+2024-09-21 08:08:16,347 - root - INFO - PromptRewriter initialized with model: t5-base on device: cpu
+2024-09-21 08:08:17,697 - root - INFO - Original prompt: 'What is the capital of France?' rewritten to 3 variations: ['Generate three diverse rewordings of the query', 'Generate three diverse rewordings of the query', 'Generate three diverse rewordings of the query']
+2024-09-21 08:08:17,867 - root - INFO - Original prompt: 'What is the capital of France?' expanded to: 'France'
+2024-09-21 08:08:23,039 - root - INFO - Generated 3 questions from the given context: ['Depending on this context, generate 3 different questions: Paris is the capital and most populous city of France. It is located on the Seine River in northern central France and has a population of over 2 million people within its administrative limits.', ', generate 3 different questions: Paris is the capital and most populous city of France. It is located on the Seine River in northern central France and has a population of over 2 million people within its administrative limits.', ', generate 3 different questions:, generate 3 different questions: Paris is the capital and most populous city of France. It is located on the Seine River in northern central France and has a population of over 2 million people within its administrative limits.']
+2024-09-21 08:08:23,040 - root - INFO - PromptRewriter cache cleared
+2024-09-21 08:12:15,377 - root - INFO - Summarizer initialized with method: abstractive, model: facebook/bart-large-cnn
+2024-09-21 08:12:21,515 - root - INFO - Generated abstractive summary for query type: informational
+2024-09-21 08:12:27,050 - root - INFO - Generated abstractive summary for query type: informational
+2024-09-21 08:12:33,632 - root - INFO - Generated abstractive summary for query type: informational
+2024-09-21 08:12:39,787 - root - INFO - Generated abstractive summary for query type: informational
+2024-09-21 08:12:39,787 - root - INFO - Generated multi-document summary for query type: informational
+2024-09-21 08:12:45,881 - root - INFO - Generated query-focused summary for query type: informational
+2024-09-21 08:16:34,297 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: msmarco-distilbert-base-v4
+2024-09-21 08:17:03,086 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device: cpu
+2024-09-21 08:17:03,089 - root - INFO - Reranker initialized with model: msmarco-distilbert-base-v4 on device: cpu
+2024-09-21 08:17:03,162 - root - INFO - Reranked 5 documents for query type: informational
+2024-09-21 08:17:03,163 - root - INFO - Reranked 5 documents for query type: informational
+2024-09-21 08:17:03,167 - root - INFO - Reranked 5 documents with diversity for query type: informational
+2024-09-21 08:17:03,167 - root - INFO - Reranker cache cleared
+2024-09-21 08:20:32,740 - root - ERROR - Failed to initialize query classifier: your-fine-tuned-model-name is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'
+If this is a private repository, make sure to pass a token having permission to this repo with `use_auth_token` or log in with `huggingface-cli login` and pass `use_auth_token=True`.
+2024-09-21 08:20:32,757 - root - ERROR - Traceback (most recent call last):
+  File "C:\Users\visha\.conda\envs\RAG\Lib\site-packages\huggingface_hub\utils\_http.py", line 406, in hf_raise_for_status
+    response.raise_for_status()
+  File "C:\Users\visha\.conda\envs\RAG\Lib\site-packages\requests\models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://huggingface.co/your-fine-tuned-model-name/resolve/main/tokenizer_config.json
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\visha\.conda\envs\RAG\Lib\site-packages\transformers\utils\hub.py", line 417, in cached_file
+    resolved_file = hf_hub_download(
+                    ^^^^^^^^^^^^^^^^
+  File "C:\Users\visha\.conda\envs\RAG\Lib\site-packages\huggingface_hub\utils\_deprecation.py", line 101, in inner_f
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\visha\.conda\envs\RAG\Lib\site-packages\huggingface_hub\utils\_validators.py", line 114, in _inner_fn
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\visha\.conda\envs\RAG\Lib\site-packages\huggingface_hub\file_download.py", line 1232, in hf_hub_download
+    return _hf_hub_download_to_cache_dir(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\visha\.conda\envs\RAG\Lib\site-packages\huggingface_hub\file_download.py", line 1339, in _hf_hub_download_to_cache_dir
+    _raise_on_head_call_error(head_call_error, force_download, local_files_only)
+  File "C:\Users\visha\.conda\envs\RAG\Lib\site-packages\huggingface_hub\file_download.py", line 1854, in _raise_on_head_call_error
+    raise head_call_error
+  File "C:\Users\visha\.conda\envs\RAG\Lib\site-packages\huggingface_hub\file_download.py", line 1746, in _get_metadata_or_catch_error
+    metadata = get_hf_file_metadata(
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\visha\.conda\envs\RAG\Lib\site-packages\huggingface_hub\utils\_validators.py", line 114, in _inner_fn
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\visha\.conda\envs\RAG\Lib\site-packages\huggingface_hub\file_download.py", line 1666, in get_hf_file_metadata
+    r = _request_wrapper(
+        ^^^^^^^^^^^^^^^^^
+  File "C:\Users\visha\.conda\envs\RAG\Lib\site-packages\huggingface_hub\file_download.py", line 364, in _request_wrapper
+    response = _request_wrapper(
+               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\visha\.conda\envs\RAG\Lib\site-packages\huggingface_hub\file_download.py", line 388, in _request_wrapper
+    hf_raise_for_status(response)
+  File "C:\Users\visha\.conda\envs\RAG\Lib\site-packages\huggingface_hub\utils\_http.py", line 454, in hf_raise_for_status
+    raise _format(RepositoryNotFoundError, message, response) from e
+huggingface_hub.errors.RepositoryNotFoundError: 404 Client Error. (Request ID: Root=1-66ee65af-10ab207d6e3d3cb50b2acc24;ad6ae4f0-1eab-47ba-96a9-d483d5e7b3b9)
+
+Repository Not Found for url: https://huggingface.co/your-fine-tuned-model-name/resolve/main/tokenizer_config.json.
+Please make sure you specified the correct `repo_id` and `repo_type`.
+If you are trying to access a private or gated repo, make sure you are authenticated.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\mine\Advanced_RAG\backend\src\query_classifier.py", line 31, in __init__
+    self.tokenizer = AutoTokenizer.from_pretrained(self.specific_model_name)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\visha\.conda\envs\RAG\Lib\site-packages\transformers\models\auto\tokenization_auto.py", line 643, in from_pretrained
+    tokenizer_config = get_tokenizer_config(pretrained_model_name_or_path, **kwargs)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\visha\.conda\envs\RAG\Lib\site-packages\transformers\models\auto\tokenization_auto.py", line 487, in get_tokenizer_config
+    resolved_config_file = cached_file(
+                           ^^^^^^^^^^^^
+  File "C:\Users\visha\.conda\envs\RAG\Lib\site-packages\transformers\utils\hub.py", line 433, in cached_file
+    raise EnvironmentError(
+OSError: your-fine-tuned-model-name is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'
+If this is a private repository, make sure to pass a token having permission to this repo with `use_auth_token` or log in with `huggingface-cli login` and pass `use_auth_token=True`.
+
+2024-09-21 08:24:11,641 - root - INFO - Query classifier initialized successfully
+2024-09-21 08:24:11,666 - root - INFO - Query classified as: navigational
+2024-09-21 08:24:11,730 - root - ERROR - Error decomposing query: num_return_sequences has to be 1 when doing greedy search, but is 3.
+2024-09-21 08:24:11,743 - root - ERROR - Traceback (most recent call last):
+  File "D:\mine\Advanced_RAG\backend\src\query_classifier.py", line 84, in decompose
+    decomposition = self.rewriter(prompt, max_length=512, min_length=10, num_return_sequences=3)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\visha\.conda\envs\RAG\Lib\site-packages\transformers\pipelines\text2text_generation.py", line 165, in __call__
+    result = super().__call__(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\visha\.conda\envs\RAG\Lib\site-packages\transformers\pipelines\base.py", line 1120, in __call__
+    return self.run_single(inputs, preprocess_params, forward_params, postprocess_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\visha\.conda\envs\RAG\Lib\site-packages\transformers\pipelines\base.py", line 1127, in run_single
+    model_outputs = self.forward(model_inputs, **forward_params)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\visha\.conda\envs\RAG\Lib\site-packages\transformers\pipelines\base.py", line 1026, in forward
+    model_outputs = self._forward(model_inputs, **forward_params)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\visha\.conda\envs\RAG\Lib\site-packages\transformers\pipelines\text2text_generation.py", line 187, in _forward
+    output_ids = self.model.generate(**model_inputs, **generate_kwargs)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\visha\.conda\envs\RAG\Lib\site-packages\torch\utils\_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\visha\.conda\envs\RAG\Lib\site-packages\transformers\generation\utils.py", line 1516, in generate
+    raise ValueError(
+ValueError: num_return_sequences has to be 1 when doing greedy search, but is 3.
+
+2024-09-21 08:24:11,744 - root - ERROR - Error processing query: Failed to decompose query: num_return_sequences has to be 1 when doing greedy search, but is 3.
+2024-09-21 08:24:11,745 - root - ERROR - Traceback (most recent call last):
+  File "D:\mine\Advanced_RAG\backend\src\query_classifier.py", line 84, in decompose
+    decomposition = self.rewriter(prompt, max_length=512, min_length=10, num_return_sequences=3)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\visha\.conda\envs\RAG\Lib\site-packages\transformers\pipelines\text2text_generation.py", line 165, in __call__
+    result = super().__call__(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\visha\.conda\envs\RAG\Lib\site-packages\transformers\pipelines\base.py", line 1120, in __call__
+    return self.run_single(inputs, preprocess_params, forward_params, postprocess_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\visha\.conda\envs\RAG\Lib\site-packages\transformers\pipelines\base.py", line 1127, in run_single
+    model_outputs = self.forward(model_inputs, **forward_params)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\visha\.conda\envs\RAG\Lib\site-packages\transformers\pipelines\base.py", line 1026, in forward
+    model_outputs = self._forward(model_inputs, **forward_params)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\visha\.conda\envs\RAG\Lib\site-packages\transformers\pipelines\text2text_generation.py", line 187, in _forward
+    output_ids = self.model.generate(**model_inputs, **generate_kwargs)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\visha\.conda\envs\RAG\Lib\site-packages\torch\utils\_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\visha\.conda\envs\RAG\Lib\site-packages\transformers\generation\utils.py", line 1516, in generate
+    raise ValueError(
+ValueError: num_return_sequences has to be 1 when doing greedy search, but is 3.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\mine\Advanced_RAG\backend\src\query_classifier.py", line 122, in process_query
+    decomposed_queries = self.decompose(query)
+                         ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\mine\Advanced_RAG\backend\src\query_classifier.py", line 91, in decompose
+    raise QueryRewritingError(f"Failed to decompose query: {e}")
+utils.QueryRewritingError: Failed to decompose query: num_return_sequences has to be 1 when doing greedy search, but is 3.
+
+2024-09-21 08:25:38,513 - root - INFO - Query classifier initialized successfully
+2024-09-21 08:25:38,538 - root - INFO - Query classified as: navigational
+2024-09-21 08:25:39,084 - root - INFO - Query decomposed into 3 sub-queries
+2024-09-21 08:25:39,104 - root - INFO - Query sentiment: POSITIVE (confidence: 1.00)
+2024-09-21 08:25:39,121 - root - INFO - Query classified as: informational
+2024-09-21 08:25:39,832 - root - INFO - Query decomposed into 3 sub-queries
+2024-09-21 08:25:39,849 - root - INFO - Query sentiment: NEGATIVE (confidence: 1.00)
+2024-09-21 08:25:39,870 - root - INFO - Query classified as: navigational
+2024-09-21 08:25:45,177 - root - INFO - Query decomposed into 3 sub-queries
+2024-09-21 08:25:45,197 - root - INFO - Query sentiment: POSITIVE (confidence: 0.98)

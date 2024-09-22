@@ -1,0 +1,53 @@
+# Web Framework
+fastapi==0.68.0
+uvicorn==0.15.0
+
+# Asynchronous Task Queue
+celery==5.2.3
+redis==4.1.0
+
+# Vector Databases
+pymilvus==2.2.8
+elasticsearch==7.17.0
+
+# Machine Learning and NLP
+transformers==4.30.2
+sentence-transformers==2.2.2
+torch
+numpy==1.23.5
+scikit-learn
+nltk==3.6.5
+
+# Embedding and Language Models
+openai==0.27.0
+cohere==3.10.0
+
+# Document Processing
+python-docx==0.8.11
+PyPDF2==2.11.1
+python-pptx==0.6.21
+beautifulsoup4==4.11.1
+
+# Text Processing
+langchain==0.0.184
+
+# Data Handling and Parsing
+pydantic==1.10.2
+PyYAML==6.0
+
+# Logging and Monitoring
+prometheus-client==0.16.0
+
+# Parallel Processing
+ray
+
+# API Authentication
+python-jose==3.3.0
+passlib==1.7.4
+
+# Testing
+pytest==7.3.1
+
+# Utilities
+python-multipart==0.0.5
+tenacity==8.2.2

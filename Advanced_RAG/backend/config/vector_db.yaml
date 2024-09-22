@@ -1,0 +1,10 @@
+type: hybrid
+milvus:
+  host: "milvus-service"
+  port: 19530
+  collection_name: "rag_collection"
+  dimension: 1536  # Dimension for OpenAI's ada-002 model
+elasticsearch:
+  host: "elasticsearch-service"
+  port: 9200
+  index_name: "rag_index"

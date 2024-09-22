@@ -1,0 +1,4 @@
+chunking:
+  max_tokens: 500
+  overlap: 50
+  method: "recursive_text_splitter"
